@@ -9,7 +9,7 @@ Daily request on free tier is limited to 100 thousands, should be enough for mos
 
 You can also deploy the project using the button below, useful if you want to quickly modify the parameter/code without manually deploying to Cloudflare. Keep in mind the Action logs are visible to public unless you make your repository private (you'll need to [unfork](https://stackoverflow.com/questions/38831301/how-to-un-fork-the-github-repository)), so anyone can see your Cloudflare Worker address. Remember to remove the logs after deploying if you leave the repository public unless you're OK with others using your daily request quota.
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/tina-hello/doh-cf-workers)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/soncms/doh)
 
 Want more control of the filter? Use [serverless-dns](https://github.com/serverless-dns/serverless-dns) which powers [RethinkDNS](https://rethinkdns.com/)
 
