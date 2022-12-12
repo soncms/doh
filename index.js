@@ -6,6 +6,9 @@ addEventListener('fetch', function(event) {
 
 const doh = 'https://dns.google/dns-query'
 const dohjson = 'https://dns.google/dns-query'
+const doh = 'https://dns.opendns.com/dns-query'
+const dohjson = 'https://dns.opendns.com/dns-query'
+
 const contype = 'application/dns-message'
 const jstontype = 'application/dns-json'
 
