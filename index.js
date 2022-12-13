@@ -4,8 +4,8 @@ addEventListener('fetch', function(event) {
     event.respondWith(response)
 })
 
-const doh = 'https://sg.soncms.me/dns-query'
-const dohjson = 'https://sg.soncms.me/dns-query'
+const doh = 'https://sg.soncms.me/dns-query/cloudflare'
+const dohjson = 'https://sg.soncms.me/dns-query/cloudflare'
 const contype = 'application/dns-message'
 const jstontype = 'application/dns-json'
 
